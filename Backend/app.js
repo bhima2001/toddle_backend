@@ -1,7 +1,7 @@
 import express from 'express'
 const app=express();
 import cookieParser from 'cookie-parser'
-import tutor from './routes/tutorRoutes'
+import tutor from './routes/tutorRoutes.js'
 import student from './routes/studentRoutes';
 import Class from './routes/classRoutes';
 import File from './routes/fileRoutes'
