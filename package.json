@@ -14,7 +14,6 @@
   "dependencies": {
     "aws-sdk": "^2.1223.0",
     "backend": "^0.0.0",
-    "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.6",
     "create-react-app": "^5.0.1",
     "dotenv": "^16.0.2",
