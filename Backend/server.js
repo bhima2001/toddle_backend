@@ -6,6 +6,6 @@ import dotenv from 'dotenv';
 dotenv.config({path:'backend/config/config.env'});
 ConnectDatabase();
 
-app.listen(3000,(req,res)=>{
+app.listen(process.env.PORT,(req,res)=>{
     console.log("Listening on port 3000");
 })
