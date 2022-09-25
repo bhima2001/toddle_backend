@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
-import Tutor from '../models/tutorModel'
-import Student from '../models/studentModel'
+import Tutor from '../models/tutorModel.js'
+import Student from '../models/studentModel.js'
 
 
 export const isAuthenticatedTutor=async(req,res,next)=>{
