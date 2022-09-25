@@ -1,8 +1,8 @@
-import File from '../models/fileModel'
+import File from '../models/fileModel.js'
 import aws from 'aws-sdk';
 import fs from 'fs';
 import path from 'path';
-import Class from '../models/classModel'
+import Class from '../models/classModel.js'
 
 
 

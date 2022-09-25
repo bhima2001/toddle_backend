@@ -1,6 +1,6 @@
-import Class from '../models/classModel'
-import Tutor from '../models/tutorModel'
-import Student from '../models/studentModel'
+import Class from '../models/classModel.js'
+import Tutor from '../models/tutorModel.js'
+import Student from '../models/studentModel.js'
 
 
 

@@ -1,6 +1,6 @@
 import express from 'express'
 import {registerTutor,loginTutor,logoutTutor,getAllTutors,allClassesCreated,allFilesCreated} from '../controllers/tutorController.js'
-import {isAuthenticatedTutor} from '../middlewares/auth'
+import {isAuthenticatedTutor} from '../middlewares/auth.js'
 
 
 const router=express.Router();

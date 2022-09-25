@@ -1,6 +1,6 @@
 import express from 'express'
 import {registerStudent,loginStudent,logoutStudent,getAllStudents,allClassesIn,getAllFiles} from '../controllers/studentController.js'
-import {isAuthenticatedStudent} from '../middlewares/auth'
+import {isAuthenticatedStudent} from '../middlewares/auth.js'
 
 const router=express.Router();
 

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node Backend/server.js",
+    "start": "node ./Backend/server.js",
     "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node ./Backend/server.js"
   },
   "keywords": [],

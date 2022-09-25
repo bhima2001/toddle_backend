@@ -1,7 +1,7 @@
-import Tutor from '../models/tutorModel'
-import sendToken from '../utils/jwtToken'
-import File from '../models/fileModel'
-import Class from '../models/classModel'
+import Tutor from '../models/tutorModel.js'
+import sendToken from '../utils/jwtToken.js'
+import File from '../models/fileModel.js'
+import Class from '../models/classModel.js'
 
 
 

@@ -1,6 +1,6 @@
 import express from 'express'
-import {createAClass,addToClass,deleteStudent,classFiles} from '../controllers/classController'
-import {isAuthenticatedStudent,isAuthenticatedTutor} from '../middlewares/auth'
+import {createAClass,addToClass,deleteStudent,classFiles} from '../controllers/classController.js'
+import {isAuthenticatedStudent,isAuthenticatedTutor} from '../middlewares/auth.js'
 const router=express.Router();
 
 router.route('/class/create').post(isAuthenticatedTutor,createAClass);

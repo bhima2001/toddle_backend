@@ -2,9 +2,9 @@ import express from 'express'
 const app=express();
 import cookieParser from 'cookie-parser'
 import tutor from './routes/tutorRoutes.js'
-import student from './routes/studentRoutes';
-import Class from './routes/classRoutes';
-import File from './routes/fileRoutes'
+import student from './routes/studentRoutes.js';
+import Class from './routes/classRoutes.js';
+import File from './routes/fileRoutes.js'
 
 
 

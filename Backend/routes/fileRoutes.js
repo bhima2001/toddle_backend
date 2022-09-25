@@ -1,6 +1,6 @@
 import express from 'express';
-import { isAuthenticatedTutor } from '../middlewares/auth';
-import {uploadFile,deleteFile} from '../controllers/fileController'
+import { isAuthenticatedTutor } from '../middlewares/auth.js';
+import {uploadFile,deleteFile} from '../controllers/fileController.js'
 import multer from 'multer';
 
 

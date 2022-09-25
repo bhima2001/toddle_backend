@@ -1,6 +1,6 @@
-import Student from '../models/studentModel'
-import sendToken from '../utils/jwtToken'
-import Class from '../models/classModel'
+import Student from '../models/studentModel.js'
+import sendToken from '../utils/jwtToken.js'
+import Class from '../models/classModel.js'
 
 
 
