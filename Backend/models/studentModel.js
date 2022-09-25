@@ -27,16 +27,18 @@ const studentSchema = new mongoose.Schema({
         }
     ]
 })
-studentSchema.pre('save',async function(next){
-    if(!this.isModified('password')){
-        next();
-    }
-    this.password=await bcrypt.hash(this.password,10);
-})
+
+// studentSchema.pre('save',async function(next){
+//     if(!this.isModified('password')){
+//         next();
+//     }
+//     // this.password=await bcrypt.hash(this.password,10);
+// })
 
 studentSchema.methods.comparePassword=async function(enteredPassword){
 
-    const check=await bcrypt.compare(enteredPassword,this.password)
+    const check=this.password===enteredPassword?true:false;
+    
     console.log(check)
     return check;
 }
